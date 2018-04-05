@@ -4,7 +4,7 @@ class todolist{
     public:
     int menu();
     bool showList() ;
-    void addItems(int amount_items)
+    void addItems(int amount_items);
     void removeItems() ;
 
 }
