@@ -35,6 +35,7 @@ int menu() {
     cout << "[2] - Add new items to To Do list." << endl;
     cout << "[3] - Remove items from To Do list." << endl;
     cout << "[4] - Exit the program." << endl;
+
     cout<<"Enter your choice: ", cin >> choice; 
     cout << endl;
     return choice;
