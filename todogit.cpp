@@ -4,6 +4,11 @@ using namespace std;
 
 string path;
 //ofstream the_path(path.c_str(), ios::out);
+void clean_buffer() {
+    cin.clear();
+    cin.sync();
+}
+
 int main(){
 
     cout << "Enter your file Name: ";
@@ -16,7 +21,7 @@ int main(){
     todolist obj;
 
     do {
-        int choice = menu();
+        int choice = obj.menu();
         switch(choice) {
 
             case 1:
@@ -42,7 +47,7 @@ int main(){
                 break;
 
             default:
-                cout << "Input was invaild Try again or "<< "\nenter 4 to exit." << endl;
+                cout << "Input was invaild Try again or "<< "\n enter 4 to exit." << endl;
                 bool working = true;
 
         }
